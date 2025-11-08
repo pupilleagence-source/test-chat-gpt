@@ -15,7 +15,9 @@ faqItems.forEach((item) => {
   });
 });
 
-const animatedElements = document.querySelectorAll('.feature-card, .timeline-card, .pricing-card, .install-card, .card, .stat');
+const animatedElements = document.querySelectorAll(
+  '.feature-card, .timeline-card, .pricing-card, .install-card, .card, .stat, .video-highlight-card, .testimonial, .workflow-support > div, .install-note'
+);
 
 const observer = new IntersectionObserver(
   (entries) => {
